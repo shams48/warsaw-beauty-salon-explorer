@@ -1,0 +1,20 @@
+# API keys - NEVER commit these
+.env
+scraper/.env
+
+# Build outputs
+backend/build/
+backend/.gradle/
+*.db
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
